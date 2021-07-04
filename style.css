@@ -5,6 +5,7 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+/*banner-top-start*/
 .flaxible-part {
   display: flex;
 }
@@ -31,7 +32,7 @@ body {
   padding-right: 20px;
   margin-top: -8px;
 }
-.banner-left a {
+.button-top a {
   padding: 10px 40px;
   text-transform: uppercase;
   background: linear-gradient(45deg, lightsalmon, tomato);
@@ -45,5 +46,35 @@ body {
 }
 .banner-right img {
   width: 75%;
-  padding-left: 6%;
+  padding-left: 10%;
 }
+/*banner-top-end*/
+
+/*about-section-start*/
+.about-section {
+  margin-top: 100px;
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.about-right img {
+  width: 75%;
+  padding-left: 13%;
+}
+.about-left {
+  width: 50%;
+  margin-right: 20px;
+}
+.about-left h1 {
+  font-size: 47px;
+}
+.about-left h4 {
+  font-size: 19px;
+  font-weight: 700;
+}
+.about-left p {
+  color: dimgrey;
+  padding-right: 78px;
+  margin-top: -8px;
+}
+/*about-section-end*/
